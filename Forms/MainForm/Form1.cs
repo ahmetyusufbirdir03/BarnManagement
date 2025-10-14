@@ -22,7 +22,7 @@ public partial class Form1 : Form
 
         _shopForm.OnPurchaseUpdate += UpdateMoney;
         _shopForm.OnAnimalPurchased += _farmForm.AddAnimalToFarm;
-
+        loadForm(_shopForm);
     }
 
     private void loadForm(object Form)
